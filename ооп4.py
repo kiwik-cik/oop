@@ -9,10 +9,19 @@ class Counter:
         self.value = 0
 
 counter = Counter()
-counter.start_from(5)#Задаем начальное значение счетчика
+counter.start_from(0)#Задаем начальное значение счетчика
 counter.increment()#Увеличиваем счетчик на 1
 
-counter.display()  # Текущее значение счетчика = 6
-counter.reset()# Обнуляем счетчик
+counter.display()#Текущее значение счетчика
+counter.reset()#Обнуляем счетчик
 
-counter.display()  # Текущее значение счетчика = 0
+counter.display()#Текущее значение счетчика = 0
+counter2 = Counter()#Создаем новый экземпляр класса Counter
+counter2.start_from(2)#Задаем начальное значение счетчика для counter2
+counter2.increment()#Увеличиваем счетчик на 1 для counter2
+counter2.display() #Текущее значение счетчика
+
+
+
+
+
